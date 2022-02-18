@@ -3,11 +3,11 @@
 **This is an `experimental` repository to familiarize myself with Serverless Framework and Node.js**.
 
 ```mermaid
+
 flowchart LR
-AWS Cost Anomaly Detection --> Amazon SNS
-Amazon SNS --> AWS Lambda
-AWS Lambda --> Slack
+A[AWS Cost Anomaly Detection] --> B[Amazon SNS] --> C[AWS Lambda] --> D[Slack]
 ```
+
 - Serverless Frameworkでは `Amazon SNS --> AWS Lambda --> Slack` の繋ぎ込みを実装
 - 残課題
   - AWS Cost Anomaly Detectionで使うSNSのarnの参照とアクセスポリシーの修正は手動
