@@ -4,9 +4,7 @@
 
 ```mermaid
 flowchart LR
-
 AWS Cost Anomaly Detection --> Amazon SNS --> AWS Lambda --> Slack
-
 ```
 - Serverless Frameworkでは `Amazon SNS --> AWS Lambda --> Slack` の繋ぎ込みを実装
 - 残課題
